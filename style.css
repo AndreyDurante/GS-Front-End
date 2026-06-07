@@ -126,12 +126,31 @@ p {
     font-weight: 800;
     box-shadow: 0 14px 35px rgba(255, 79, 31, 0.34);
     transition: background-color 0.8s, transform 0.8s;
+    gap: 8px;
+}
+
+.botao i{
+    display: inline-block;
+}
+
+.botao:hover i{
+    animation: setaAnimada 1.2s ease-in-out infinite;
+}
+
+@keyframes setaAnimada {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px); 
+    }
 }
 
 .botao:hover {
     background-color: #ff7a33;
     transform: translateY(-3px);
 }
+
 
 .grade-cards {
     display: flex;
@@ -149,6 +168,15 @@ p {
     transition: background-color 0.8s, color 0.8s, transform 0.8s;
 }
 
+@keyframes cards {
+    0% {
+        transform: translateZ(0);
+    }
+    100% {
+        transform: translateX(70px);
+    }
+}
+
 .card span {
     display: block;
     margin-bottom: 24px;
@@ -163,6 +191,10 @@ p {
     background-color: #ff4f1f;
     color: #150811;
     transform: translateY(-2px) scale(1.07);
+}
+
+.card:hover i{
+    animation: cards 1.5s ease-in-out forwards;
 }
 
 .card:hover p {
@@ -238,6 +270,7 @@ pre {
 
 .tecnologias p:hover i {
     color: #150811;
+    animation: setaAnimada 1.2s ease-in-out infinite;
 }
 
 .lista-destaque {
