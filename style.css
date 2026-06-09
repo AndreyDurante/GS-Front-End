@@ -134,12 +134,12 @@ section {
     margin: 0 auto;
 }
 
-.diaadia-conteudo {
+.dia-conteudo {
     width: 1120px;
     margin: 0 auto;
 }
 
-.etiqueta {
+.estilo-box {
     margin-bottom: 18px;
     color: var(--secondary-accent);
     font-family: "Orbitron", Arial, sans-serif;
@@ -149,7 +149,7 @@ section {
     text-transform: uppercase;
 }
 
-.hero-titulo {
+.problema-titulo {
     font-family: "Orbitron", Arial, sans-serif;
     letter-spacing: 0;
     margin-bottom: 26px;
@@ -193,7 +193,7 @@ section {
     line-height: 1.16;
 }
 
-.diaadia-titulo {
+.dia-titulo {
     font-family: "Orbitron", Arial, sans-serif;
     letter-spacing: 0;
     margin-bottom: 34px;
@@ -318,7 +318,7 @@ p {
     gap: 80px;
 }
 
-.diaadia-colunas {
+.dia-colunas {
     display: flex;
     align-items: center;
     gap: 80px;
@@ -328,7 +328,7 @@ p {
     width: 500px;
 }
 
-.diaadia-colunas > div {
+.dia-colunas > div {
     width: 500px;
 }
 
@@ -336,7 +336,7 @@ p {
     width: 510px;
 }
 
-.diaadia-colunas > div:first-child {
+.dia-colunas > div:first-child {
     width: 510px;
 }
 
@@ -464,13 +464,13 @@ pre {
     font-size: 24px;
 }
 
-.diaadia-aplicacoes {
+.dia-aplicacoes {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.app-item {
+.dia-item {
     padding: 18px 22px;
     border-left: 4px solid var(--primary-accent);
     background-color: var(--bg-light);
@@ -479,7 +479,7 @@ pre {
     transition: background-color var(--transition-smooth), color var(--transition-smooth), transform var(--transition-smooth);
 }
 
-.app-item:hover {
+.dia-item:hover {
     background-color: var(--primary-accent);
     color: var(--text-dark);
     transform: translateY(-2px) scale(1.07);
